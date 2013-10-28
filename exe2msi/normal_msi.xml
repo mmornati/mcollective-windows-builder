@@ -1,0 +1,35 @@
+<MsiWrapper>
+  <Installer>
+    <IconFile Detect="executable" Value="" />
+    <Output FileName="D:\mcowindows\mcollective_2_3_2.msi" />
+    <UpgradeCode Value="{e8fe10cd-0e4e-4f78-9442-13bca36f5a35}" />
+    <Manufacturer Detect="registry" Value="Puppet Labs" />
+    <ProductVersion Detect="" Value="2.3.2.0" />
+    <ProductName Detect="" Value="Marionette Collective version 2.3.2" />
+    <Comments Detect="registry" Value="" />
+    <Contact Detect="registry" Value="ilmorna@gmail.com" />
+    <HelpLink Detect="registry" Value="" />
+    <UpdateLink Detect="registry" Value="" />
+    <AboutLink Detect="registry" Value="http://www.mornati.net" />
+  </Installer>
+  <WrappedInstaller>
+    <Executable FileName="D:\mcowindows\mcollective_2_3_2_Setup.exe" SuccessCodes="" />
+    <ApplicationId Value="{3EB4B31C-AC36-4788-9EFC-9DE077910DF5}" />
+    <Install>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Install>
+    <Uninstall>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Uninstall>
+  </WrappedInstaller>
+</MsiWrapper>
